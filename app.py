@@ -249,7 +249,8 @@ with st.expander("📁 Upload Knowledge Base", expanded=True):
         st.session_state.knowledge = knowledge_text
 
 if st.session_state.user_id:
-     GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
+      GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+
     
 
     agent = AstrologyRAGAgent(GROQ_API_KEY, st.session_state.knowledge)
