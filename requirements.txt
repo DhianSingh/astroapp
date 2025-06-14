@@ -1,10 +1,10 @@
-# requirements.txt
-streamlit>=1.32
-agno>=0.5.0
-groq>=0.5
-pandas>=2.0
-openpyxl>=3.1
-PyPDF2>=3.0
-python-dotenv>=1.0
-duckduckgo-search
+
+streamlit
 agno
+groq
+pandas
+openpyxl
+PyPDF2
+python-dotenv
+duckduckgo-search
+
