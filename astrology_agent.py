@@ -1,7 +1,7 @@
 from agno.agent import Agent
 from agno.tools.duckduckgo import DuckDuckGoTools
 from agno.tools.python import PythonTools
-from agno.tools.files import FileTools
+from agno.tools.reasoning import ReasoningTools
 from agno.models.groq import GroqModel
 
 class AstrologyRAGAgent:
